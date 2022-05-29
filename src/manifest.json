@@ -1,0 +1,13 @@
+{
+  "name": "copy redash result",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "copy redash result",
+  "content_scripts": [{
+    "matches": ["{url}"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
+
